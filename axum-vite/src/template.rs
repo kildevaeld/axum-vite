@@ -12,6 +12,7 @@ pub struct Asset {
 pub enum AssetKind {
     Style,
     Script,
+    Unknown,
 }
 
 pub struct Payload {

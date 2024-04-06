@@ -9,4 +9,8 @@ edition = "2021"
 axum = { version = "0.7" }
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["fs"] }
-pin-project-lite = { version = "0.2" }
+async-trait = { version = "0.1" }
+thiserror = "1"
+serde_json = { version = "1" }
+
+# fairy-render = { git = "ssh://git@github.com/kildevaeld/bette-rs.git" }
